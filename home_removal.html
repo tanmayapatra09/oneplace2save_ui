@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anyvan</title>
+    <link type="image/x-icon" rel="shortcut icon" href="images/otdc.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- <link rel="stylesheet" href="css/index.css"> -->
+</head>
+
+<body>
+    <div class="container-fluid">
+    <header>
+        <div class="logo-section">
+            <h1>
+                <a href="#">
+                    <img src="images/logo.png">
+                </a>
+            </h1>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Our Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Storage</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Packing Material</a>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 Dropdown
+               </a>
+               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                 <a class="dropdown-item" href="#">Action</a>
+                 <a class="dropdown-item" href="#">Another action</a>
+                 <div class="dropdown-divider"></div>
+                 <a class="dropdown-item" href="#">Something else here</a>
+               </div>
+             </li> -->
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+
+                </form>
+            </div>
+        </nav>
+        <div class="calling_box">
+            <div class="icon_mobile">
+                <i class="fa fa-phone"></i>
+            </div>
+            <div class="number_box">
+                <span>Need Help? Call Us!</span>
+                <span><a href="tel:02075159347">0207 515 9347</a></span>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <p class="heading_big">Get Free Removal Quotes</p>
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12">
+                <div class="blue_box">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 col-sm-12">
+                            <div class="form-group">
+                                <label class="control-label label_style">Moving From <span
+                                        class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="moving_from"
+                                    placeholder="Select Location" />
+                                <div class="list_search moving_list" style="display: none;">
+                                    <ul>
+                                        <li>World</li>
+                                        <li>Universe</li>
+                                        <li>Galaxy</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12">
+                            <div class="form-group">
+                                <label class="control-label label_style">Moving To <span
+                                        class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="moving_to" placeholder="Select Location" />
+                                <div class="list_search moving_to" style="display: none;">
+                                    <ul>
+                                        <li>World</li>
+                                        <li>Universe</li>
+                                        <li>Galaxy</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="d-flex">
+                        <div class="from_box">
+                            <div class="form-group">
+                                <label class="control-label label_style">Moving From  <span class="text-danger">*</span></label>
+                                <select class="form-control">
+                                    <option>-- Choose Property Type --</option>
+                                    <option>Room</option>
+                                    <option>Storage</option>
+                                    <option>Home</option>
+                                    <option>Flat</option>
+                                </select>
+                             </div>
+                        </div>
+                        <div class="to_word">
+                            <p>to</p>
+                        </div>
+                        <div class="to_box">
+                            <div class="form-group">
+                                <label class="control-label label_style">Moving To  <span class="text-danger">*</span></label>
+                                <select class="form-control">
+                                    <option>-- Choose Property Type --</option>
+                                    <option>Room</option>
+                                    <option>Storage</option>
+                                    <option>Home</option>
+                                    <option>Flat</option>
+                                </select>
+                             </div>
+                        </div>
+                    </div> -->
+                </div>
+                <p class="heading_small">Quick House Inventory</p>
+                <div class="tab_section">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <ul class="nav flex-column nav-tabs" id="myTab">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                                        aria-controls="home" aria-selected="true">
+                                        <img src="images/sofa.png" />
+                                        <span class="item_name">Living Room</span>
+                                        <span class="arrow-left"> </span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                                        aria-controls="profile" aria-selected="false">
+                                        <img src="images/dinning-table.png" />
+                                        <span>Dinning Room</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                                        aria-controls="contact" aria-selected="false">
+                                        <img src="images/kitchen.png" />
+                                        <span>Kitchen</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                                        aria-controls="contact" aria-selected="false">
+                                        <img src="images/office-building.png" />
+                                        <span>Office</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                                        aria-controls="contact" aria-selected="false">
+                                        <img src="images/bedroom.png" />
+                                        <span>Bedrooms</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                                        aria-controls="contact" aria-selected="false">
+                                        <img src="images/bath.png" />
+                                        <span>Bathrooms & Toilet</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                                        aria-controls="contact" aria-selected="false">
+                                        <img src="images/living.png">
+                                        <span>Garden & Shed</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                                        aria-controls="contact" aria-selected="false">
+                                        <img src="images/box.png" />
+                                        <span>Boxes & Others</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-8 pl-0">
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="home" role="tabpanel"
+                                    aria-labelledby="home-tab">
+                                    <p class="title">Living Room</p>
+                                    <div class="table_view">
+                                        <div class="list_item d-flex">
+                                            <div class="item_name">
+                                                <span class="count">(1x)</span><span class="furniture_name">2 Seater
+                                                    Sofa</span>
+                                            </div>
+                                            <div class="unit_section">
+                                                <div class="item_sub">
+                                                    <span><a href="#"><i class="fa fa-minus"></i></a></span>
+                                                </div>
+                                                <div class="item_add">
+                                                    <span><a href="#"><i class="fa fa-plus"></i></a></span>
+                                                </div>
+                                                <div class="item_check">
+                                                    <input type="checkbox">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list_item d-flex">
+                                            <div class="item_name">
+                                                <span class="count d-none">(1x)</span><span>2 Seater Sofa</span>
+                                            </div>
+                                            <div class="unit_section">
+                                                <div class="item_sub d-none">
+                                                    <span>-</span>
+                                                </div>
+                                                <div class="item_add d-none">
+                                                    <span>+</span>
+                                                </div>
+                                                <div class="item_check">
+                                                    <input type="checkbox">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list_item d-flex">
+                                            <div class="item_name">
+                                                <span class="count d-none">(1x)</span><span>2 Seater Sofa</span>
+                                            </div>
+                                            <div class="unit_section">
+                                                <div class="item_sub d-none">
+                                                    <span>-</span>
+                                                </div>
+                                                <div class="item_add d-none">
+                                                    <span>+</span>
+                                                </div>
+                                                <div class="item_check">
+                                                    <input type="checkbox">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list_item d-flex">
+                                            <div class="item_name">
+                                                <span class="count d-none">(1x)</span><span>2 Seater Sofa</span>
+                                            </div>
+                                            <div class="unit_section">
+                                                <div class="item_sub d-none">
+                                                    <span>-</span>
+                                                </div>
+                                                <div class="item_add d-none">
+                                                    <span>+</span>
+                                                </div>
+                                                <div class="item_check">
+                                                    <input type="checkbox">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list_item d-flex">
+                                            <div class="item_name">
+                                                <span class="count d-none">(1x)</span><span>2 Seater Sofa</span>
+                                            </div>
+                                            <div class="unit_section">
+                                                <div class="item_sub d-none">
+                                                    <span>-</span>
+                                                </div>
+                                                <div class="item_add d-none">
+                                                    <span>+</span>
+                                                </div>
+                                                <div class="item_check">
+                                                    <input type="checkbox">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                    Dinning Room</div>
+                                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                                    Kitchen</div>
+                                <div class="search_box">
+                                    <div class="input_box">
+                                        <input type="text" class="form-control" id="search"
+                                            placeholder="Enter More House Items Here">
+                                        <span><i class="fa fa-search"></i></span>
+                                    </div>
+                                    <div class="list_search" style="display: none;">
+                                        <ul>
+                                            <li class="search_link"><a href="">Search all of Movies</a><button
+                                                    class="btn add">+add</button></li>
+                                            <li class="search_link"><a href="">Advanced Search</a><button
+                                                    class="btn add">+add</button></li>
+                                            <li class="search_link"><a href="">Search all of Movies</a><button
+                                                    class="btn add">+add</button></li>
+                                            <li class="search_link"><a href="">Advanced Search</a><button
+                                                    class="btn add">+add</button></li>
+                                            <li class="search_link"><a href="">Search all of Movies</a><button
+                                                    class="btn add">+add</button></li>
+                                            <li class="search_link"><a href="">Advanced Search</a><button
+                                                    class="btn add">+add</button></li>
+                                            <li class="search_link"><a href="">Search all of Movies</a><button
+                                                    class="btn add">+add</button></li>
+                                            <li class="search_link"><a href="">Advanced Search</a><button
+                                                    class="btn add">+add</button></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="more_input_box">
+                                    <!-- <input type="text" class="form-control" id="additional" placeholder="Enter Any Additional Items"> -->
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                        placeholder="Enter Any Additional Items"></textarea>
+                                </div>
+                                <div class="button_section">
+                                    <button class="btn no_bg_btn">Previous</button>
+                                    <button class="btn next_btn">Next Room <i
+                                            class="fa fa-arrow-right ml-2"></i></button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="service_section">
+                    <p class="title">Do you require packing or additional help loading / unloading?</p>
+                    <div class="service_box">
+                        <div class="content">
+                            <span>
+                                <img src="images/open-box.png" />
+                            </span>
+                            <p>Full Packing Service</p>
+                        </div>
+                        <div class="check_box">
+                            <input type="checkbox">
+                        </div>
+                    </div>
+                    <div class="service_box">
+                        <div class="content">
+                            <span><img src="images/open-box.png" /></span>
+                            <p>Full Packing Service</p>
+                        </div>
+                        <div class="check_box">
+                            <input type="checkbox">
+                        </div>
+                    </div>
+                    <div class="service_box">
+                        <div class="content">
+                            <span><img src="images/open-box.png" /></span>
+                            <p>Full Packing Service</p>
+                        </div>
+                        <div class="check_box">
+                            <input type="checkbox">
+                        </div>
+                    </div>
+                </div>
+                <div class="date_section">
+                    <div class="row">
+                        <div class="col-lg-6 mb-3">
+                            <div class="form-group">
+                                <label class="control-label label_style">Moving From <span
+                                        class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="select_date"
+                                    placeholder="Select Location" />
+                                <div class="list_search select_date" style="display: none;">
+                                    <ul>
+                                        <li>Weekly</li>
+                                        <li>Monthly</li>
+                                        <li>Yearly</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mb-3">
+                            <label class="control-label">From Date</label>
+                            <div class="input-group">
+
+                                <input type="text" class="form-control datepicker" placeholder=" Select To Date"
+                                    id="inputDate" value="" />
+                                <div class="input-group-prepend">
+                                    <label class="input-group-text" for="inputDate">
+                                        <i class="fa fa-calendar"></i></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mb-3">
+                            <label class="control-label">To Date</label>
+                            <div class="input-group">
+
+                                <input type="text" class="form-control datepicker" placeholder=" Select To Date"
+                                    id="inputDate" value="" />
+                                <div class="input-group-prepend">
+                                    <label class="input-group-text" for="inputDate">
+                                        <i class="fa fa-calendar"></i></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mb-3">
+                            <label class="control-label">Weekly Date </label>
+                            <div class="input-group">
+
+                                <input type="text" class="form-control datepicker" placeholder=" Select To Date"
+                                    id="inputDate" value="" />
+                                <div class="input-group-prepend">
+                                    <label class="input-group-text" for="inputDate">
+                                        <i class="fa fa-calendar"></i></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="special_instruction">
+                    <div class="header-section">
+                        <p>Special Instruction</p>
+                        <button class="btn minus_btn">
+                            <i class="fa fa-minus"></i>
+                        </button>
+                        <button class="btn add_btn" style="display: none;">
+                            <i class="fa fa-plus"></i> ADD
+                        </button>
+                    </div>
+                    <div class="instruction_box">
+                        <textarea class="form-control special_textarea" rows="3"
+                            placeholder="Enter Any Special Instructions Here"></textarea>
+                    </div>
+                </div>
+                <div class="special_button">
+                    <button class="btn">
+                        Get Price
+                    </button>
+                </div>
+                <!-- /* name, mobile no, email, phd area;datascience, artificial intelligence, machine learning. */ -->
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="map_section">
+                    <div class="map_view">
+                        <div class="mapouter">
+                            <div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no"
+                                    marginheight="0" marginwidth="0"
+                                    src="https://maps.google.com/maps?hl=en&amp;q=University of Oxford&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                            </div>
+                            <style>
+                                .mapouter {
+                                    position: relative;
+                                }
+
+                                .gmap_canvas {
+                                    overflow: hidden;
+                                    background: none !important;
+                                }
+
+                                .gmap_iframe {
+                                    height: 400px !important;
+                                    width: 100%;
+                                }
+                            </style>
+                        </div>
+                    </div>
+                    <div class="location">
+                        <div class="city bdr_btm">
+                            <p class="map_location">From: <span>Swidon, UK</span></p>
+                            <div class="form-group input_location" style="display: none;">
+                                <label class="control-label location_label">Moving From </label>
+                                <input type="text" class="form-control" value="Swidon, UK" />
+                            </div>
+                        </div>
+                        <div class="city">
+                            <p class="map_location">To: <span>Bridgemedeow, UK</span></p>
+                            <div class="form-group input_location" style="display: none;">
+                                <label class="control-label location_label">Moving To </label>
+                                <input type="text" class="form-control" value="Bridgemedeow, UK" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="distance" style="display: none;">
+                        <p>98 Miles</p>
+                    </div>
+                    <div class="edit_button">
+                        <button class="btn edit_btn">Edit <i class="fa fa-pencil"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/moment.min.js"></script>
+    <script src="js/bootstrap-datetimepicker.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('ul.nav_bar li.dropdown').hover(function () {
+                /* alert("hello"); */
+                $(this).find('.dropdown-menu').stop(true, true).delay(100).fadeIn(200);
+            }, function () {
+                $(this).find('.dropdown-menu').stop(true, true).delay(100).fadeOut(200);
+            });
+            $('#search').focus(function () {
+                $('div.list_search').css('display', 'block');
+            }).blur(function () {
+                $('div.list_search').fadeOut('medium');
+            });
+
+            $('#moving_from').focus(function () {
+                $('div.moving_list').css('display', 'block');
+            }).blur(function () {
+                $('div.moving_list').fadeOut('medium');
+            });
+
+            $('#moving_to').focus(function () {
+                $('div.moving_to').css('display', 'block');
+            }).blur(function () {
+                $('div.moving_to').fadeOut('medium');
+            });
+            $('#select_date').focus(function () {
+                $('div.select_date').css('display', 'block');
+            }).blur(function () {
+                $('div.select_date').fadeOut('medium');
+            });
+            // date funtion
+            $('.datepicker').datetimepicker({
+                format: 'LT',
+                format: 'DD-MM-YYYY',
+                daysOfWeekDisabled: [0, 6],
+            });
+            $(".minus_btn").click(function () {
+                $(this).hide("slow")
+                $(".add_btn").show("slow");
+                $(".special_textarea").hide("slow");
+            });
+            $(".add_btn").click(function () {
+                $(this).hide("slow")
+                $(".minus_btn").show("slow");
+                $(".special_textarea").show("slow");
+            });
+            $(".edit_button").click(function () {
+                $(this).hide();
+                $(".map_location").hide("slow");
+                $(".input_location").show("slow");
+                $(".distance").show("slow")
+            })
+        })
+
+    </script>
+</body>
+<footer class="animate__animated animate__slideInUp">
+    <div class="container-fluid bg_black">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <img src="images/logo.png">
+                <div class="social_media">
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-whatsapp"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-youtube"></i>
+                </div>
+                <div class="contact_number">
+                    <p>Need Help? Call Us! <span><a href="tel:02075159347">0207 515 9347</a></span></p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <p class="footer_heading">Company</p>
+                <ul>
+                    <li>
+                        <a href="#">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#">Our Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">Storage</a>
+                    </li>
+                    <li>
+                        <a href="#">Shop</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <p class="footer_heading">Our Services</p>
+                <ul>
+                    <li>
+                        <a href="#">Man and Van London</a>
+                    </li>
+                    <li>
+                        <a href="#">House Removal Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Office Removal Services</a>
+                    </li>
+                    <li>
+                        <a href="#">House Clearances</a>
+                    </li>
+                    <li>
+                        <a href="#">Office Clearances</a>
+                    </li>
+                    <li>
+                        <a href="#">Motorcycle Recovery</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <p class="footer_heading" style="visibility: hidden;">Hidden Heading</p>
+                <ul>
+                    <li>
+                        <a href="#">Film Equipment Transportation</a>
+                    </li>
+                    <li>
+                        <a href="#">Sofa Collection and Delivery</a>
+                    </li>
+                    <li>
+                        <a href="#">Upright Piano Moving</a>
+                    </li>
+                    <li>
+                        <a href="#">Waste removal and Recycling</a>
+                    </li>
+                    <!-- <li>
+                        <a href="#">Storage</a>
+                    </li>
+                    <li>
+                        <a href="#">Shop</a>
+                    </li> -->
+                </ul>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 mtop_3 text-white">
+                © oneplace2save 2021. All rights reserved.
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 text-right mtop_3">
+                <a href="#" class="text-white mr-5">Terms and Condition</a>
+                <a href="#" class="text-white">Site Map</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</html>
