@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link type="image/x-icon" rel="shortcut icon" href="images/favicon.png" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.css"/>
+    <link rel="stylesheet" href="css/hover-min.css" />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/CartList.css">
+    <link rel="stylesheet" href="css/PackingMaterial.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+          <div class="logo-section">
+              <h1>
+                   <a href="home.html">
+                       <img src="images/logo.png">
+                   </a>
+               </h1>
+          </div>
+       <nav class="navbar navbar-expand-lg navbar-light">
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             <ul class="navbar-nav mr-auto">
+               <li class="nav-item ">
+                 <a class="nav-link" href="home.html">Home</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="services.html">Our Services</a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="contact.html">Contact Us</a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="blog.html">Blog</a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="storage.html">Storage</a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="packing-material.html">Packing Material</a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="login.html">Account</a>
+               </li>
+               <li class="nav-item active">
+                   <a class="nav-link" href="cart.html">Cart</a>
+               </li>
+               <!-- <li class="nav-item dropdown">
+                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                   Dropdown
+                 </a>
+                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   <a class="dropdown-item" href="#">Action</a>
+                   <a class="dropdown-item" href="#">Another action</a>
+                   <div class="dropdown-divider"></div>
+                   <a class="dropdown-item" href="#">Something else here</a>
+                 </div>
+               </li> -->
+             </ul>
+             <form class="form-inline my-2 my-lg-0">
+
+             </form>
+           </div>
+           <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+         </nav>
+         <div class="calling_box">
+             <div class="icon_mobile">
+                 <i class="fa fa-phone"></i>
+             </div>
+             <div class="number_box">
+                   <span>Need Help? Call Us!</span>
+                   <span><a href="tel:02075159347">0207 515 9347</a></span>
+             </div>
+         </div>
+       </div>
+  </header>
+
+  <section class="inner-banner">
+      <div class="bg" style="background-image:url(images/cart.png)">
+        <!--<h1 class="text-center">Shopping Cart</h1>-->
+    </div>
+  </section>
+
+  <!-- Breadcrumb start -->
+  <section id="breadcrumb">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-8">
+            <nav aria-label="breadcrumb">
+               <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="#">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page"> Item Packaging </li>
+               </ol>
+            </nav>
+         </div>
+         <div class="col-md-4">
+            <div class="cart_summary">
+               <a href="#">
+                  <div class="cart_icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
+                  <div class="summary">
+                     <h6 class="bc_title">Your trolley</h6>
+                     <p>3 Items, £ 28.2</p>
+                  </div>
+               </a>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<!-- Breadcrumb end -->
+
+
+<!-- Table area start -->
+<section class="cart animate__animated animate__slideInUp">
+   <div class="container">
+      <div class="table-responsive">
+         <table class="table table-striped">
+            <thead>
+               <tr>
+                  <th scope="col" width="100">Item</th>
+                  <th scope="col"></th>
+                  <th scope="col">Price</th>
+                  <th scope="col">Qty</th>
+                  <th scope="col">Sub Total</th>
+                  <th scope="col"></th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td><img width="100" class="card-img-top product_img" src="https://techponder.online/projects/op2sback/public/uploads/packaging/600x600_430da48aa7919335a9bb2f72be90abca.jpg" alt="Card image cap"></td>
+                  <td align="left">Furni-guard | 8</td>
+                  <td>£ 12.00</td>
+                  <td>
+                     <div class="quantity">
+                        <div class="input-group">
+                           <div class="input-group-prepend"><span class="input-group-text link text-success"><i class="fa fa-plus"></i></span></div>
+                           <input type="text" class="number_input form-control" aria-label="Amount (to the nearest dollar)" maxlength="3" value="1">
+                           <div class="input-group-append"><span class="input-group-text link text-danger"><i class="fa fa-minus"></i></span></div>
+                        </div>
+                     </div>
+                  </td>
+                  <td>£ 12.00 </td>
+                  <td align="right"><a href="#"><i class="fa fa-trash" aria-hidden="true"></i></a></td>
+               </tr>
+               <tr>
+                  <td><img width="100" class="card-img-top product_img" src="https://techponder.online/projects/op2sback/public/uploads/packaging/600x600_9bbe890c104084da75c28224dff8b978.jpg" alt="Card image cap"></td>
+                  <td align="left">Medium Size Removal Boxes | 7</td>
+                  <td>£ 0.20</td>
+                  <td>
+                     <div class="quantity">
+                        <div class="input-group">
+                           <div class="input-group-prepend"><span class="input-group-text link text-success"><i class="fa fa-plus"></i></span></div>
+                           <input type="text" class="number_input form-control" aria-label="Amount (to the nearest dollar)" maxlength="3" value="1">
+                           <div class="input-group-append"><span class="input-group-text link text-danger"><i class="fa fa-minus"></i></span></div>
+                        </div>
+                     </div>
+                  </td>
+                  <td>£ 0.20 </td>
+                  <td align="right"><a href="#"><i class="fa fa-trash" aria-hidden="true"></i></a></td>
+               </tr>
+               <tr>
+                  <td><img width="100" class="card-img-top product_img" src="https://techponder.online/projects/op2sback/public/uploads/packaging/600x600_d2c0720c8f16e911087dcf0133a50822.jpg" alt="Card image cap"></td>
+                  <td align="left">Bubble Wrap 500 | 9</td>
+                  <td>£ 15.00</td>
+                  <td>
+                     <div class="quantity">
+                        <div class="input-group">
+                           <div class="input-group-prepend"><span class="input-group-text link text-success"><i class="fa fa-plus"></i></span></div>
+                           <input type="text" class="number_input form-control" aria-label="Amount (to the nearest dollar)" maxlength="3" value="1">
+                           <div class="input-group-append"><span class="input-group-text link text-danger"><i class="fa fa-minus"></i></span></div>
+                        </div>
+                     </div>
+                  </td>
+                  <td>£ 15.00 </td>
+                  <td align="right"><a href="#"><i class="fa fa-trash" aria-hidden="true"></i></a></td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div class="row">
+         <div class="col-md-6 justify-content-end-">
+            <div class="billing-address">
+              <h6>Billing Address</h6>
+              <p>
+                <strong>Tanmaya Patra</strong><br/>
+                Lewis Road, Tankapani Road <br/>
+                Bhubaneswar6, 666666, United Kingdom<br/>
+                <strong>Email:</strong> tanmaya@gmail.com <br/>
+                <strong>Mobile:</strong> 918895483821
+              </p>
+              <a href="user-profile.html" class="badge badge-primary badge-pill link">Click to Update Address</a>
+            </div>
+         </div>
+         <div class="col-md-6 justify-content-end">
+            <div>
+               <p class="pull-right" style="text-align: right;">Sub Total: <strong> £ 27.2</strong> <br><br>VAT: <strong> £ 1 </strong> <br><br>Grand Total: <strong> £ 28.2 </strong><br><br></p>
+               <div class="clearfix"></div>
+            </div>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-md-6 col-sm-12 col-xs-12"><a href="#" class="btn btn-md reset_btn hvr-bounce-to-right pull-left"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i> Continue Shopping</a></div>
+         <div class="col-md-6 col-sm-12 col-xs-12"><a href="#" class="btn btn-md instant_btn hvr-bounce-to-right pull-right"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Proceed to Payment</a></div>
+      </div>
+   </div>
+</section>
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img src="images/logo.png">
+                    <div class="social_media">
+                        <a href=""><i class="fa fa-twitter"></i></a>
+                        <a href=""><i class="fa fa-facebook"></i></a>
+                        <a href=""><i class="fa fa-whatsapp"></i></a>
+                        <a href=""><i class="fa fa-instagram"></i></a>
+                        <a href=""><i class="fa fa-youtube"></i></a>
+                    </div>
+                    <div class="contact_number">
+                        <p>Need Help? Call Us! <span><a href="tel:02075159347">0207 515 9347</a></span></p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-12">
+                    <p class="footer_heading">Company</p>
+                    <ul>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Our Services</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">Storage</a>
+                        </li>
+                        <li>
+                            <a href="#">Shop</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <p class="footer_heading">Our Services</p>
+                    <ul>
+                        <li>
+                            <a href="#">Man and Van London</a>
+                        </li>
+                        <li>
+                            <a href="#">House Removal Services</a>
+                        </li>
+                        <li>
+                            <a href="#">Office Removal Services</a>
+                        </li>
+                        <li>
+                            <a href="#">House Clearances</a>
+                        </li>
+                        <li>
+                            <a href="#">Office Clearances</a>
+                        </li>
+                        <li>
+                            <a href="#">Motorcycle Recovery</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <p class="footer_heading" style="visibility: hidden;">Hidden Heading</p>
+                    <ul>
+                        <li>
+                            <a href="#">Film Equipment Transportation</a>
+                        </li>
+                        <li>
+                            <a href="#">Sofa Collection and Delivery</a>
+                        </li>
+                        <li>
+                            <a href="#">Upright Piano Moving</a>
+                        </li>
+                        <li>
+                            <a href="#">Waste removal and Recycling</a>
+                        </li>
+                        <!-- <li>
+                            <a href="#">Storage</a>
+                        </li>
+                        <li>
+                            <a href="#">Shop</a>
+                        </li> -->
+                    </ul>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 mtop_3 text-white">
+                    <p>&copy; oneplace2save 2021. All rights reserved.</p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 text-right mtop_3">
+                    <p><a href="#" class="mr-2">Terms and Condition</a>
+                    <a href="#">Site Map</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/font.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link type="image/x-icon" rel="shortcut icon" href="images/favicon.png" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.css"/>
+    <link rel="stylesheet" href="css/hover-min.css" />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/user-profile.css">
+    <link rel="stylesheet" href="css/tanmaya.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+          <div class="logo-section">
+              <h1>
+                   <a href="home.html">
+                       <img src="images/logo.png">
+                   </a>
+               </h1>
+          </div>
+       <nav class="navbar navbar-expand-lg navbar-light">
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             <ul class="navbar-nav mr-auto">
+               <li class="nav-item ">
+                 <a class="nav-link" href="home.html">Home</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="services.html">Our Services</a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="contact.html">Contact Us</a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="blog.html">Blog</a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="storage.html">Storage</a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="packing-material.html">Packing Material</a>
+               </li>
+               <li class="nav-item active">
+                   <a class="nav-link" href="login.html">Account</a>
+               </li>
+               <li class="nav-item ">
+                   <a class="nav-link" href="cart.html">Cart</a>
+               </li>
+               <!-- <li class="nav-item dropdown">
+                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                   Dropdown
+                 </a>
+                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   <a class="dropdown-item" href="#">Action</a>
+                   <a class="dropdown-item" href="#">Another action</a>
+                   <div class="dropdown-divider"></div>
+                   <a class="dropdown-item" href="#">Something else here</a>
+                 </div>
+               </li> -->
+             </ul>
+             <form class="form-inline my-2 my-lg-0">
+
+             </form>
+           </div>
+           <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+         </nav>
+         <div class="calling_box">
+             <div class="icon_mobile">
+                 <i class="fa fa-phone"></i>
+             </div>
+             <div class="number_box">
+                   <span>Need Help? Call Us!</span>
+                   <span><a href="tel:02075159347">0207 515 9347</a></span>
+             </div>
+         </div>
+       </div>
+  </header>
+
+
+
+  <section id="user-profile">
+    <div class="container mb-4">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Storage Orders</li>
+        </ol>
+      </nav>
+    </div>
+    <div class="container">
+      <div class="row gutters-sm">
+         <div class="col-md-3 mb-3">
+            <div class="card">
+               <div class="card-body">
+                  <div class="d-flex flex-column align-items-center text-center">
+                     <img alt="Admin" class="rounded-circle" width="150" src="https://ui-avatars.com/api/?name=RISHAN+PATHARI&amp;color=7F9CF5&amp;background=EBF4FF">
+                     <div class="mt-3">
+                        <h4>RISHAN PATHARI</h4>
+                        <p class="text-secondary mb-1">rishanang@gmail.com </p>
+                        <p class="text-muted font-size-sm">  </p>
+                        <button class="btn btn-md reset_btn hvr-bounce-to-right mr-2"><i class="fa fa-power-off"></i>&nbsp; Logout</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="card mt-3">
+               <ul class="list-group list-group-flush left-profile-sidebar">
+                  <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                     <a href="user-profile.html"><h6 class="mb-0"><i class="fas fa-user-alt"></i> &nbsp; My Profile</h6></a>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                     <a href="manage-address.html"><h6 class="mb-0"><i class="fas fa-map"></i> &nbsp; Manage Address</h6></a>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                     <a href="change-password.html"><h6 class="mb-0"><i class="fas fa-user-lock"></i> &nbsp; Change Password</h6></a>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                     <a href="storage-orders.html"><h6 class="mb-0"> <i class="fas fa-warehouse"></i> &nbsp; Storage Orders</h6></a>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap active">
+                     <a href="package-orders.html"><h6 class="mb-0"> <i class="fas fa-box"></i> &nbsp; Package Materials</h6></a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+         <div class="col-md-9">
+            <div class="card mb-3">
+               <div class="card-body">
+                  <h3 class="mb-3">Packing Materials Order Histories</h3>
+                  <table class="table table-striped table-sm">
+ <thead>
+    <tr>
+       <th>Order Number</th>
+       <th>Item Details</th>
+       <th>Amount</th>
+       <th>Payment Status</th>
+       <th>Action</th>
+    </tr>
+ </thead>
+ <tbody>
+    <tr>
+       <td>1032</td>
+       <td>Packing Materials</td>
+       <td>28.00 GBP</td>
+       <td><span class="badge badge-success">COMPLETED</span></td>
+       <td class="">
+          <button type="button" class="btn instant_btn btn-sm" data-toggle="modal" data-target="#orderDetailsModal1032"><i class="far fa-eye"></i> More</button>
+          <div class="modal fade" id="orderDetailsModal1032" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="display: none;">
+             <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                   <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Order # 1032</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                   </div>
+                   <div class="modal-body">
+
+                     <div class="row justify-content-between mb-3">
+                        <div class="col-auto">
+                           <h6 class="color-1 mb-0 change-color">Receipt</h6>
+                        </div>
+                        <div class="col-auto "> <small>Invoice Number : 97A804432V640561B</small> </div>
+                     </div>
+                     <div class="row my-3">
+                        <div class="col">
+                           <div class="card card-2">
+                              <div class="card-body p-0">
+                                 <div class="media p-4">
+                                    <div class="sq align-self-center "><img class="img-fluid my-auto align-self-center mr-2 mr-md-4 pl-0 p-0 m-0" src="https://techponder.online/projects/op2sback/public/uploads/packaging/600x600_430da48aa7919335a9bb2f72be90abca.jpg" width="80" height="80"></div>
+                                    <div class="media-body my-auto text-right">
+                                       <div class="row my-auto flex-column flex-md-row">
+                                          <div class="col my-auto">
+                                             <h6 class="mb-0"> Furni-guard</h6>
+                                          </div>
+                                          <div class="col my-auto"> <small>Qty : 1.00</small></div>
+                                          <div class="col my-auto">
+                                             <h6 class="mb-0"> £ 12.00</h6>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <hr class="my-1">
+                                 <div class="row my-2 mx-2">
+                                    <div class="col-md-12"><strong>Order Status:</strong> Completed</div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row my-3">
+                        <div class="col">
+                           <div class="card card-2">
+                              <div class="card-body p-0">
+                                 <div class="media p-4">
+                                    <div class="sq align-self-center "><img class="img-fluid my-auto align-self-center mr-2 mr-md-4 pl-0 p-0 m-0" src="https://techponder.online/projects/op2sback/public/uploads/packaging/600x600_d2c0720c8f16e911087dcf0133a50822.jpg" width="80" height="80"></div>
+                                    <div class="media-body my-auto text-right">
+                                       <div class="row my-auto flex-column flex-md-row">
+                                          <div class="col my-auto">
+                                             <h6 class="mb-0"> Bubble Wrap 500</h6>
+                                          </div>
+                                          <div class="col my-auto"> <small>Qty : 1.00</small></div>
+                                          <div class="col my-auto">
+                                             <h6 class="mb-0"> £ 15.00</h6>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <hr class="my-1">
+                                 <div class="row my-2 mx-2">
+                                    <div class="col-md-12"><strong>Order Status:</strong> Completed</div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row mt-4">
+                        <div class="col">
+                           <div class="row justify-content-between">
+                              <div class="col-auto">
+                                 <p class="mb-1 text-dark"><b>Order Details</b></p>
+                              </div>
+                              <div class="flex-sm-col text-right col">
+                                 <p class="mb-1"><b>VAT</b></p>
+                              </div>
+                              <div class="flex-sm-col col-auto">
+                                 <p class="mb-1"> £ 1 </p>
+                              </div>
+                           </div>
+                           <div class="row justify-content-between">
+                              <div class="flex-sm-col text-right col">
+                                 <p class="mb-1"><b>Total</b></p>
+                              </div>
+                              <div class="flex-sm-col col-auto">
+                                 <p class="mb-1"> £ 28.00 </p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row invoice ">
+                        <div class="col">
+                           <p class="mb-1"> Invoice Number : 97A804432V640561B</p>
+                           <p class="mb-1"> Payment via : Paypal Payment Gateway</p>
+                           <p class="mb-1">Invoice Date : 2021-12-07</p>
+                        </div>
+                     </div>
+                     <div class="card-footer">
+                        <div class="jumbotron-fluid">
+                           <div class="row justify-content-between ">
+                              <div class="col-auto my-auto ">
+                                 <h4 class="mb-0">TOTAL PAID</h4>
+                              </div>
+                              <div class="col-auto my-auto ml-auto">
+                                 <h2> £ 28.00 </h2>
+                              </div>
+                           </div>
+                           <div class="row mb-3 mt-3 mt-md-0">
+                              <div class="col-auto border-line"> <small class="text-black">PAN:AA02hDW7E</small></div>
+                              <div class="col-auto border-line"> <small class="text-black">CIN:UMMC20PTC </small></div>
+                              <div class="col-auto "><small class="text-black">GSTN:268FD07EXX </small> </div>
+                           </div>
+                        </div>
+                     </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </td>
+    </tr>
+    <tr>
+       <td>1031</td>
+       <td>Packing Materials</td>
+       <td>1.20 GBP</td>
+       <td><span class="badge badge-success">COMPLETED</span></td>
+       <td class="">
+          <button type="button" class="btn instant_btn btn-sm" data-toggle="modal" data-target="#orderDetailsModal1031"><i class="far fa-eye"></i> More</button>
+          <div class="modal fade" id="orderDetailsModal1031" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+             <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                   <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Order # 1031</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                   </div>
+                   <div class="modal-body">
+                     <div class="row justify-content-between mb-3">
+                        <div class="col-auto">
+                           <h6 class="color-1 mb-0 change-color">Receipt</h6>
+                        </div>
+                        <div class="col-auto "> <small>Invoice Number : 9F74253386601894D</small> </div>
+                     </div>
+                     <div class="row my-3">
+                        <div class="col">
+                           <div class="card card-2">
+                              <div class="card-body p-0">
+                                 <div class="media p-4">
+                                    <div class="sq align-self-center "><img class="img-fluid my-auto align-self-center mr-2 mr-md-4 pl-0 p-0 m-0" src="https://techponder.online/projects/op2sback/public/uploads/packaging/600x600_9bbe890c104084da75c28224dff8b978.jpg" width="80" height="80"></div>
+                                    <div class="media-body my-auto text-right">
+                                       <div class="row my-auto flex-column flex-md-row">
+                                          <div class="col my-auto">
+                                             <h6 class="mb-0"> Medium Size Removal Boxes</h6>
+                                          </div>
+                                          <div class="col my-auto"> <small>Qty : 1.00</small></div>
+                                          <div class="col my-auto">
+                                             <h6 class="mb-0"> £ 0.20</h6>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <hr class="my-1">
+                                 <div class="row my-2 mx-2">
+                                    <div class="col-md-12"><strong>Order Status:</strong> Completed</div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row mt-4">
+                        <div class="col">
+                           <div class="row justify-content-between">
+                              <div class="col-auto">
+                                 <p class="mb-1 text-dark"><b>Order Details</b></p>
+                              </div>
+                              <div class="flex-sm-col text-right col">
+                                 <p class="mb-1"><b>VAT</b></p>
+                              </div>
+                              <div class="flex-sm-col col-auto">
+                                 <p class="mb-1"> £ 1 </p>
+                              </div>
+                           </div>
+                           <div class="row justify-content-between">
+                              <div class="flex-sm-col text-right col">
+                                 <p class="mb-1"><b>Total</b></p>
+                              </div>
+                              <div class="flex-sm-col col-auto">
+                                 <p class="mb-1"> £ 1.20 </p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row invoice ">
+                        <div class="col">
+                           <p class="mb-1"> Invoice Number : 9F74253386601894D</p>
+                           <p class="mb-1"> Payment via : Paypal Payment Gateway</p>
+                           <p class="mb-1">Invoice Date : 2021-12-07</p>
+                        </div>
+                     </div>
+                     <div class="card-footer">
+                        <div class="jumbotron-fluid">
+                           <div class="row justify-content-between ">
+                              <div class="col-auto my-auto ">
+                                 <h4 class="mb-0">TOTAL PAID</h4>
+                              </div>
+                              <div class="col-auto my-auto ml-auto">
+                                 <h2> £ 1.20 </h2>
+                              </div>
+                           </div>
+                           <div class="row mb-3 mt-3 mt-md-0">
+                              <div class="col-auto border-line"> <small class="text-black">PAN:AA02hDW7E</small></div>
+                              <div class="col-auto border-line"> <small class="text-black">CIN:UMMC20PTC </small></div>
+                              <div class="col-auto "><small class="text-black">GSTN:268FD07EXX </small> </div>
+                           </div>
+                        </div>
+                     </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </td>
+    </tr>
+    <tr>
+       <td>1030</td>
+       <td>Packing Materials</td>
+       <td>1.20 GBP</td>
+       <td><span class="badge badge-success">COMPLETED</span></td>
+       <td class="">
+          <button type="button" class="btn instant_btn btn-sm" data-toggle="modal" data-target="#orderDetailsModal1030"><i class="far fa-eye"></i> More</button>
+          <div class="modal fade" id="orderDetailsModal1030" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+             <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                   <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Order # 1030</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                   </div>
+                   <div class="modal-body">
+                     <div class="row justify-content-between mb-3">
+                        <div class="col-auto">
+                           <h6 class="color-1 mb-0 change-color">Receipt</h6>
+                        </div>
+                        <div class="col-auto "> <small>Invoice Number : 5A701812BD917994W</small> </div>
+                     </div>
+                     <div class="row my-3">
+                        <div class="col">
+                           <div class="card card-2">
+                              <div class="card-body p-0">
+                                 <div class="media p-4">
+                                    <div class="sq align-self-center "><img class="img-fluid my-auto align-self-center mr-2 mr-md-4 pl-0 p-0 m-0" src="https://techponder.online/projects/op2sback/public/uploads/packaging/600x600_9bbe890c104084da75c28224dff8b978.jpg" width="80" height="80"></div>
+                                    <div class="media-body my-auto text-right">
+                                       <div class="row my-auto flex-column flex-md-row">
+                                          <div class="col my-auto">
+                                             <h6 class="mb-0"> Medium Size Removal Boxes</h6>
+                                          </div>
+                                          <div class="col my-auto"> <small>Qty : 1.00</small></div>
+                                          <div class="col my-auto">
+                                             <h6 class="mb-0"> £ 0.20</h6>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <hr class="my-1">
+                                 <div class="row my-2 mx-2">
+                                    <div class="col-md-12"><strong>Order Status:</strong> Completed</div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row mt-4">
+                        <div class="col">
+                           <div class="row justify-content-between">
+                              <div class="col-auto">
+                                 <p class="mb-1 text-dark"><b>Order Details</b></p>
+                              </div>
+                              <div class="flex-sm-col text-right col">
+                                 <p class="mb-1"><b>VAT</b></p>
+                              </div>
+                              <div class="flex-sm-col col-auto">
+                                 <p class="mb-1"> £ 1 </p>
+                              </div>
+                           </div>
+                           <div class="row justify-content-between">
+                              <div class="flex-sm-col text-right col">
+                                 <p class="mb-1"><b>Total</b></p>
+                              </div>
+                              <div class="flex-sm-col col-auto">
+                                 <p class="mb-1"> £ 1.20 </p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row invoice ">
+                        <div class="col">
+                           <p class="mb-1"> Invoice Number : 5A701812BD917994W</p>
+                           <p class="mb-1"> Payment via : Paypal Payment Gateway</p>
+                           <p class="mb-1">Invoice Date : 2021-12-07</p>
+                        </div>
+                     </div>
+                     <div class="card-footer">
+                        <div class="jumbotron-fluid">
+                           <div class="row justify-content-between ">
+                              <div class="col-auto my-auto ">
+                                 <h4 class="mb-0">TOTAL PAID</h4>
+                              </div>
+                              <div class="col-auto my-auto ml-auto">
+                                 <h2> £ 1.20 </h2>
+                              </div>
+                           </div>
+                           <div class="row mb-3 mt-3 mt-md-0">
+                              <div class="col-auto border-line"> <small class="text-black">PAN:AA02hDW7E</small></div>
+                              <div class="col-auto border-line"> <small class="text-black">CIN:UMMC20PTC </small></div>
+                              <div class="col-auto "><small class="text-black">GSTN:268FD07EXX </small> </div>
+                           </div>
+                        </div>
+                     </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </td>
+    </tr>
+    <tr>
+       <td>1029</td>
+       <td>Packing Materials</td>
+       <td>6.00 GBP</td>
+       <td><span class="badge badge-success">COMPLETED</span></td>
+       <td class="">
+          <button type="button" class="btn instant_btn btn-sm" data-toggle="modal" data-target="#orderDetailsModal1029"><i class="far fa-eye"></i> More</button>
+          <div class="modal fade" id="orderDetailsModal1029" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+             <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                   <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Order # 1029</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                   </div>
+                   <div class="modal-body">
+                     <div class="row justify-content-between mb-3">
+                        <div class="col-auto">
+                           <h6 class="color-1 mb-0 change-color">Receipt</h6>
+                        </div>
+                        <div class="col-auto "> <small>Invoice Number : 46J42783WG121152X</small> </div>
+                     </div>
+                     <div class="row my-3">
+                        <div class="col">
+                           <div class="card card-2">
+                              <div class="card-body p-0">
+                                 <div class="media p-4">
+                                    <div class="sq align-self-center "><img class="img-fluid my-auto align-self-center mr-2 mr-md-4 pl-0 p-0 m-0" src="https://techponder.online/projects/op2sback/public/uploads/packaging/600x600_9bbe890c104084da75c28224dff8b978.jpg" width="80" height="80"></div>
+                                    <div class="media-body my-auto text-right">
+                                       <div class="row my-auto flex-column flex-md-row">
+                                          <div class="col my-auto">
+                                             <h6 class="mb-0"> Medium Size Removal Boxes</h6>
+                                          </div>
+                                          <div class="col my-auto"> <small>Qty : 1.00</small></div>
+                                          <div class="col my-auto">
+                                             <h6 class="mb-0"> £ 2.50</h6>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <hr class="my-1">
+                                 <div class="row my-2 mx-2">
+                                    <div class="col-md-12"><strong>Order Status:</strong> Completed</div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row mt-4">
+                        <div class="col">
+                           <div class="row justify-content-between">
+                              <div class="col-auto">
+                                 <p class="mb-1 text-dark"><b>Order Details</b></p>
+                              </div>
+                              <div class="flex-sm-col text-right col">
+                                 <p class="mb-1"><b>VAT</b></p>
+                              </div>
+                              <div class="flex-sm-col col-auto">
+                                 <p class="mb-1"> £ 1 </p>
+                              </div>
+                           </div>
+                           <div class="row justify-content-between">
+                              <div class="flex-sm-col text-right col">
+                                 <p class="mb-1"><b>Total</b></p>
+                              </div>
+                              <div class="flex-sm-col col-auto">
+                                 <p class="mb-1"> £ 6.00 </p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row invoice ">
+                        <div class="col">
+                           <p class="mb-1"> Invoice Number : 46J42783WG121152X</p>
+                           <p class="mb-1"> Payment via : Paypal Payment Gateway</p>
+                           <p class="mb-1">Invoice Date : 2021-12-07</p>
+                        </div>
+                     </div>
+                     <div class="card-footer">
+                        <div class="jumbotron-fluid">
+                           <div class="row justify-content-between ">
+                              <div class="col-auto my-auto ">
+                                 <h4 class="mb-0">TOTAL PAID</h4>
+                              </div>
+                              <div class="col-auto my-auto ml-auto">
+                                 <h2> £ 6.00 </h2>
+                              </div>
+                           </div>
+                           <div class="row mb-3 mt-3 mt-md-0">
+                              <div class="col-auto border-line"> <small class="text-black">PAN:AA02hDW7E</small></div>
+                              <div class="col-auto border-line"> <small class="text-black">CIN:UMMC20PTC </small></div>
+                              <div class="col-auto "><small class="text-black">GSTN:268FD07EXX </small> </div>
+                           </div>
+                        </div>
+                     </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </td>
+    </tr>
+    <tr>
+       <td>1028</td>
+       <td>Packing Materials</td>
+       <td>6.00 GBP</td>
+       <td><span class="badge badge-success">COMPLETED</span></td>
+       <td class="">
+          <button type="button" class="btn instant_btn btn-sm" data-toggle="modal" data-target="#orderDetailsModal1028"><i class="far fa-eye"></i> More</button>
+          <div class="modal fade" id="orderDetailsModal1028" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+             <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                   <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Order # 1028</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                   </div>
+                   <div class="modal-body">
+                     <div class="row justify-content-between mb-3">
+                        <div class="col-auto">
+                           <h6 class="color-1 mb-0 change-color">Receipt</h6>
+                        </div>
+                        <div class="col-auto "> <small>Invoice Number : 5CS47234X6638002Y</small> </div>
+                     </div>
+                     <div class="row my-3">
+                        <div class="col">
+                           <div class="card card-2">
+                              <div class="card-body p-0">
+                                 <div class="media p-4">
+                                    <div class="sq align-self-center "><img class="img-fluid my-auto align-self-center mr-2 mr-md-4 pl-0 p-0 m-0" src="https://techponder.online/projects/op2sback/public/uploads/packaging/600x600_9bbe890c104084da75c28224dff8b978.jpg" width="80" height="80"></div>
+                                    <div class="media-body my-auto text-right">
+                                       <div class="row my-auto flex-column flex-md-row">
+                                          <div class="col my-auto">
+                                             <h6 class="mb-0"> Medium Size Removal Boxes</h6>
+                                          </div>
+                                          <div class="col my-auto"> <small>Qty : 1.00</small></div>
+                                          <div class="col my-auto">
+                                             <h6 class="mb-0"> £ 2.50</h6>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <hr class="my-1">
+                                 <div class="row my-2 mx-2">
+                                    <div class="col-md-12"><strong>Order Status:</strong> Completed</div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row mt-4">
+                        <div class="col">
+                           <div class="row justify-content-between">
+                              <div class="col-auto">
+                                 <p class="mb-1 text-dark"><b>Order Details</b></p>
+                              </div>
+                              <div class="flex-sm-col text-right col">
+                                 <p class="mb-1"><b>VAT</b></p>
+                              </div>
+                              <div class="flex-sm-col col-auto">
+                                 <p class="mb-1"> £ 1 </p>
+                              </div>
+                           </div>
+                           <div class="row justify-content-between">
+                              <div class="flex-sm-col text-right col">
+                                 <p class="mb-1"><b>Total</b></p>
+                              </div>
+                              <div class="flex-sm-col col-auto">
+                                 <p class="mb-1"> £ 6.00 </p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row invoice ">
+                        <div class="col">
+                           <p class="mb-1"> Invoice Number : 5CS47234X6638002Y</p>
+                           <p class="mb-1"> Payment via : Paypal Payment Gateway</p>
+                           <p class="mb-1">Invoice Date : 2021-12-07</p>
+                        </div>
+                     </div>
+                     <div class="card-footer">
+                        <div class="jumbotron-fluid">
+                           <div class="row justify-content-between ">
+                              <div class="col-auto my-auto ">
+                                 <h4 class="mb-0">TOTAL PAID</h4>
+                              </div>
+                              <div class="col-auto my-auto ml-auto">
+                                 <h2> £ 6.00 </h2>
+                              </div>
+                           </div>
+                           <div class="row mb-3 mt-3 mt-md-0">
+                              <div class="col-auto border-line"> <small class="text-black">PAN:AA02hDW7E</small></div>
+                              <div class="col-auto border-line"> <small class="text-black">CIN:UMMC20PTC </small></div>
+                              <div class="col-auto "><small class="text-black">GSTN:268FD07EXX </small> </div>
+                           </div>
+                        </div>
+                     </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </td>
+    </tr>
+    <tr>
+       <td>1027</td>
+       <td>Packing Materials</td>
+       <td>6.00 GBP</td>
+       <td><span class="badge badge-success">COMPLETED</span></td>
+       <td class="">
+          <button type="button" class="btn instant_btn btn-sm" data-toggle="modal" data-target="#orderDetailsModal1027"><i class="far fa-eye"></i> More</button>
+          <div class="modal fade" id="orderDetailsModal1027" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+             <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                   <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Order # 1027</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                   </div>
+                   <div class="modal-body">
+                     <div class="row justify-content-between mb-3">
+                        <div class="col-auto">
+                           <h6 class="color-1 mb-0 change-color">Receipt</h6>
+                        </div>
+                        <div class="col-auto "> <small>Invoice Number : 8H081071YG816473K</small> </div>
+                     </div>
+                     <div class="row my-3">
+                        <div class="col">
+                           <div class="card card-2">
+                              <div class="card-body p-0">
+                                 <div class="media p-4">
+                                    <div class="sq align-self-center "><img class="img-fluid my-auto align-self-center mr-2 mr-md-4 pl-0 p-0 m-0" src="https://techponder.online/projects/op2sback/public/uploads/packaging/600x600_9bbe890c104084da75c28224dff8b978.jpg" width="80" height="80"></div>
+                                    <div class="media-body my-auto text-right">
+                                       <div class="row my-auto flex-column flex-md-row">
+                                          <div class="col my-auto">
+                                             <h6 class="mb-0"> Medium Size Removal Boxes</h6>
+                                          </div>
+                                          <div class="col my-auto"> <small>Qty : 1.00</small></div>
+                                          <div class="col my-auto">
+                                             <h6 class="mb-0"> £ 2.50</h6>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <hr class="my-1">
+                                 <div class="row my-2 mx-2">
+                                    <div class="col-md-12"><strong>Order Status:</strong> Completed</div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row mt-4">
+                        <div class="col">
+                           <div class="row justify-content-between">
+                              <div class="col-auto">
+                                 <p class="mb-1 text-dark"><b>Order Details</b></p>
+                              </div>
+                              <div class="flex-sm-col text-right col">
+                                 <p class="mb-1"><b>VAT</b></p>
+                              </div>
+                              <div class="flex-sm-col col-auto">
+                                 <p class="mb-1"> £ 1 </p>
+                              </div>
+                           </div>
+                           <div class="row justify-content-between">
+                              <div class="flex-sm-col text-right col">
+                                 <p class="mb-1"><b>Total</b></p>
+                              </div>
+                              <div class="flex-sm-col col-auto">
+                                 <p class="mb-1"> £ 6.00 </p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row invoice ">
+                        <div class="col">
+                           <p class="mb-1"> Invoice Number : 8H081071YG816473K</p>
+                           <p class="mb-1"> Payment via : Paypal Payment Gateway</p>
+                           <p class="mb-1">Invoice Date : 2021-12-07</p>
+                        </div>
+                     </div>
+                     <div class="card-footer">
+                        <div class="jumbotron-fluid">
+                           <div class="row justify-content-between ">
+                              <div class="col-auto my-auto ">
+                                 <h4 class="mb-0">TOTAL PAID</h4>
+                              </div>
+                              <div class="col-auto my-auto ml-auto">
+                                 <h2> £ 6.00 </h2>
+                              </div>
+                           </div>
+                           <div class="row mb-3 mt-3 mt-md-0">
+                              <div class="col-auto border-line"> <small class="text-black">PAN:AA02hDW7E</small></div>
+                              <div class="col-auto border-line"> <small class="text-black">CIN:UMMC20PTC </small></div>
+                              <div class="col-auto "><small class="text-black">GSTN:268FD07EXX </small> </div>
+                           </div>
+                        </div>
+                     </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </td>
+    </tr>
+    <tr>
+       <td>1026</td>
+       <td>Packing Materials</td>
+       <td>15.50 GBP</td>
+       <td><span class="badge badge-success">COMPLETED</span></td>
+       <td class="">
+          <button type="button" class="btn instant_btn btn-sm" data-toggle="modal" data-target="#orderDetailsModal1026"><i class="far fa-eye"></i> More</button>
+          <div class="modal fade" id="orderDetailsModal1026" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+             <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                   <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Order # 1026</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                   </div>
+                   <div class="modal-body">
+                     <div class="row justify-content-between mb-3">
+                        <div class="col-auto">
+                           <h6 class="color-1 mb-0 change-color">Receipt</h6>
+                        </div>
+                        <div class="col-auto "> <small>Invoice Number : 1YU17588Y8463463K</small> </div>
+                     </div>
+                     <div class="row my-3">
+                        <div class="col">
+                           <div class="card card-2">
+                              <div class="card-body p-0">
+                                 <div class="media p-4">
+                                    <div class="sq align-self-center "><img class="img-fluid my-auto align-self-center mr-2 mr-md-4 pl-0 p-0 m-0" src="https://techponder.online/projects/op2sback/public/uploads/packaging/600x600_430da48aa7919335a9bb2f72be90abca.jpg" width="80" height="80"></div>
+                                    <div class="media-body my-auto text-right">
+                                       <div class="row my-auto flex-column flex-md-row">
+                                          <div class="col my-auto">
+                                             <h6 class="mb-0"> Furni-guard</h6>
+                                          </div>
+                                          <div class="col my-auto"> <small>Qty : 1.00</small></div>
+                                          <div class="col my-auto">
+                                             <h6 class="mb-0"> £ 12.00</h6>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <hr class="my-1">
+                                 <div class="row my-2 mx-2">
+                                    <div class="col-md-12"><strong>Order Status:</strong> Completed</div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row mt-4">
+                        <div class="col">
+                           <div class="row justify-content-between">
+                              <div class="col-auto">
+                                 <p class="mb-1 text-dark"><b>Order Details</b></p>
+                              </div>
+                              <div class="flex-sm-col text-right col">
+                                 <p class="mb-1"><b>VAT</b></p>
+                              </div>
+                              <div class="flex-sm-col col-auto">
+                                 <p class="mb-1"> £ 1 </p>
+                              </div>
+                           </div>
+                           <div class="row justify-content-between">
+                              <div class="flex-sm-col text-right col">
+                                 <p class="mb-1"><b>Total</b></p>
+                              </div>
+                              <div class="flex-sm-col col-auto">
+                                 <p class="mb-1"> £ 15.50 </p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row invoice ">
+                        <div class="col">
+                           <p class="mb-1"> Invoice Number : 1YU17588Y8463463K</p>
+                           <p class="mb-1"> Payment via : Paypal Payment Gateway</p>
+                           <p class="mb-1">Invoice Date : 2021-12-07</p>
+                        </div>
+                     </div>
+                     <div class="card-footer">
+                        <div class="jumbotron-fluid">
+                           <div class="row justify-content-between ">
+                              <div class="col-auto my-auto ">
+                                 <h4 class="mb-0">TOTAL PAID</h4>
+                              </div>
+                              <div class="col-auto my-auto ml-auto">
+                                 <h2>  £ 15.50 </h2>
+                              </div>
+                           </div>
+                           <div class="row mb-3 mt-3 mt-md-0">
+                              <div class="col-auto border-line"> <small class="text-black">PAN:AA02hDW7E</small></div>
+                              <div class="col-auto border-line"> <small class="text-black">CIN:UMMC20PTC </small></div>
+                              <div class="col-auto "><small class="text-black">GSTN:268FD07EXX </small> </div>
+                           </div>
+                        </div>
+                     </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </td>
+    </tr>
+ </tbody>
+</table>
+               </div>
+            </div>
+         </div>
+      </div>
+</div>
+
+</section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img src="images/logo.png">
+                    <div class="social_media">
+                        <a href=""><i class="fa fa-twitter"></i></a>
+                        <a href=""><i class="fa fa-facebook"></i></a>
+                        <a href=""><i class="fa fa-whatsapp"></i></a>
+                        <a href=""><i class="fa fa-instagram"></i></a>
+                        <a href=""><i class="fa fa-youtube"></i></a>
+                    </div>
+                    <div class="contact_number">
+                        <p>Need Help? Call Us! <span><a href="tel:02075159347">0207 515 9347</a></span></p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-12">
+                    <p class="footer_heading">Company</p>
+                    <ul>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Our Services</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">Storage</a>
+                        </li>
+                        <li>
+                            <a href="#">Shop</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <p class="footer_heading">Our Services</p>
+                    <ul>
+                        <li>
+                            <a href="#">Man and Van London</a>
+                        </li>
+                        <li>
+                            <a href="#">House Removal Services</a>
+                        </li>
+                        <li>
+                            <a href="#">Office Removal Services</a>
+                        </li>
+                        <li>
+                            <a href="#">House Clearances</a>
+                        </li>
+                        <li>
+                            <a href="#">Office Clearances</a>
+                        </li>
+                        <li>
+                            <a href="#">Motorcycle Recovery</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <p class="footer_heading" style="visibility: hidden;">Hidden Heading</p>
+                    <ul>
+                        <li>
+                            <a href="#">Film Equipment Transportation</a>
+                        </li>
+                        <li>
+                            <a href="#">Sofa Collection and Delivery</a>
+                        </li>
+                        <li>
+                            <a href="#">Upright Piano Moving</a>
+                        </li>
+                        <li>
+                            <a href="#">Waste removal and Recycling</a>
+                        </li>
+                        <!-- <li>
+                            <a href="#">Storage</a>
+                        </li>
+                        <li>
+                            <a href="#">Shop</a>
+                        </li> -->
+                    </ul>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 mtop_3 text-white">
+                    <p>&copy; oneplace2save 2021. All rights reserved.</p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 text-right mtop_3">
+                    <p><a href="#" class="mr-2">Terms and Condition</a>
+                    <a href="#">Site Map</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/font.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+
+</body>
+
+</html>
