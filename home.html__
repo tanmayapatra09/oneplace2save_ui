@@ -16,19 +16,23 @@
 </head>
 
 <body>
+
+
     <header class="header">
         <div class="container">
+
             <div class="row">
                 <div class="col-md-2 col-sm-12">
                     <div class="logo">
                         <a href="home.html">
                             <img src="images/logo.png">
                         </a>
-                        <label for="tm" id="toggle-menu"><i class="fa fa-bars"></i></label>
                     </div>
                 </div>
                 <div class="col-md-8 col-sm-12">
+
                     <nav id="menu">
+                        <label for="tm" id="toggle-menu">Navigation <span class="drop-icon">▾</span></label>
                         <input type="checkbox" id="tm">
                         <ul class="main-menu cf">
                             <li class="active"><a href="#">Sample</a></li>
@@ -44,14 +48,15 @@
                                     <li><a href="#">Item 1.4</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">2-level DD
+                            <li>
+                                <a href="#">Services
                                     <span class="drop-icon">▾</span>
                                     <label title="Toggle Drop-down" class="drop-icon" for="sm1">▾</label>
                                 </a>
                                 <input type="checkbox" id="sm1">
                                 <ul class="sub-menu">
                                     <li><a href="#">Item 2.1</a></li>
-                                    <li><a href="#">Item 2.2
+                                    <li><a href="http://localhost:3000/house-removals">Item 2.2
                                             <span class="drop-icon">▸</span>
                                             <label title="Toggle Drop-down" class="drop-icon" for="sm2">▾</label>
                                         </a>
@@ -88,7 +93,6 @@
                                             <label title="Toggle Drop-down" class="drop-icon" for="sm5">▾</label>
                                         </a>
                                         <input type="checkbox" id="sm5">
-
                                         <ul class="sub-menu">
                                             <li><a href="">3.2.1</a></li>
                                             <li><a href="">3.2.2</a></li>
@@ -126,6 +130,8 @@
                             </li>
                         </ul>
                     </nav>
+
+
                 </div>
                 <div class="col-md-2 col-sm-12">
                     <div class="calling_box">
@@ -141,6 +147,7 @@
             </div>
         </div>
     </header>
+
 
     <section class="instant_price_section" style="background-image: url('images/pattern-bg.jpg');">
         <div class="container">
@@ -731,38 +738,6 @@
             </div>
         </div>
     </footer>
-
-    <!-- whatsapp -->
-    <div class="floating-wpp">
-        <a class="floating-wpp-button" href="javascript:void(0);"><img src="images/whatsapp.svg" alt="WhatsApp" /></a>
-    </div>
-    <div class="whatsappme whatsappme--tooltip whatsappme--dialog">
-        <a href="https://api.whatsapp.com/send?phone=02075159347" class="whatsappme__button">
-            <div class="whatsappme__button__sendtext">Open chat</div>
-            <svg class="whatsappme__button__send" viewBox="0 0 400 400" fill="none" fill-rule="evenodd" stroke="#fff"
-                stroke-linecap="round" stroke-width="33">
-                <path class="wame_plain" stroke-dasharray="1096.67" stroke-dashoffset="1096.67"
-                    d="M168.83 200.504H79.218L33.04 44.284a1 1 0 0 1 1.386-1.188L365.083 199.04a1 1 0 0 1 .003 1.808L34.432 357.903a1 1 0 0 1-1.388-1.187l29.42-99.427">
-                </path>
-                <path class="wame_chat" stroke-dasharray="1019.22" stroke-dashoffset="1019.22"
-                    d="M318.087 318.087c-52.982 52.982-132.708 62.922-195.725 29.82l-80.449 10.18 10.358-80.112C18.956 214.905 28.836 134.99 81.913 81.913c65.218-65.217 170.956-65.217 236.174 0 42.661 42.661 57.416 102.661 44.265 157.316">
-                </path>
-            </svg>
-        </a>
-        <div class="whatsappme__box">
-            <div class="whatsappme__header">
-                <i class="icofont-brand-whatsapp" aria-hidden="true"></i> WhatsApp
-                <div class="whatsappme__close"><i class="fa fa-times" aria-hidden="true"></i></div>
-            </div>
-            <div class="whatsappme__message">
-                <div class="whatsappme__message__wrap">
-                    <div class="whatsappme__message__content">Hello<br>How can we Help You?</div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- //whatsapp -->
-
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/popper.min.js"></script>
@@ -787,14 +762,10 @@
                 $(this).next().slideToggle();
                 $(this).find('.toogleIcon').toggleClass('fa-plus fa-minus');
             });
-            //Script for whatsapp floating
-            $(".floating-wpp-button").click(function () {
-                $(".whatsappme").addClass("whatsappme--show");
-            });
-            $(".whatsappme__close").click(function () {
-                $(".whatsappme").removeClass("whatsappme--show");
-            });
         })
+
+
+
     </script>
 </body>
 
